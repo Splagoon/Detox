@@ -1,0 +1,12 @@
+{
+	"tokenColors": "./Detox.tmTheme",
+	"colors": {
+		"editor.background": "#1A1A1A",
+		"editorCursor.foreground": "#F8F8F0",
+		"editor.foreground": "#CCCCCC",
+		"editorWhitespace.foreground": "#333333",
+		"editor.lineHighlightBackground": "#3E3D32",
+		"editor.selectionBackground": "#666666"
+	},
+	"name": "Detox"
+}

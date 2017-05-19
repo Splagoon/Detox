@@ -1,0 +1,22 @@
+{
+    "name": "detox",
+    "displayName": "Detox",
+    "description": "Colorful theme that uses hue and saturation for semantic meaning",
+    "version": "1.0.0",
+    "publisher": "robkellett",
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Detox",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Detox-color-theme.json"
+            }
+        ]
+    }
+}
