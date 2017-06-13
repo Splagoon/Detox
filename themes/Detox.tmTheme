@@ -31,7 +31,8 @@
 			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
-			<string>comment</string>
+			<string>comment,
+punctuation.definition.comment</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -53,7 +54,8 @@
 			<key>name</key>
 			<string>Constant</string>
 			<key>scope</key>
-			<string>constant, entity.name.variable.enum-member, string</string>
+			<string>constant, entity.name.variable.enum-member, string, keyword.other.unit, support.constant,
+punctuation.definition.string</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -75,7 +77,10 @@
 			<key>name</key>
 			<string>Operator</string>
 			<key>scope</key>
-			<string>keyword.operator, punctuation.definition.tag, punctuation.separator, punctuation.terminator</string>
+			<string>keyword.operator, punctuation.separator, punctuation.terminator,
+punctuation.section, punctuation.definition,
+punctuation.curlybrace,
+entity.name.tag.reference.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -112,7 +117,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#7ACC81</string>
+				<string>#CCB67A</string>
 			</dict>
 		</dict>
 		<dict>
